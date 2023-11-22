@@ -334,7 +334,7 @@ Pass a table to the setup call with your configuration options.
   },
 
   providers = {
-    priority = { 'lsp', 'coc', 'markdown', 'norg' },
+    priority = { 'lsp', 'coc', 'markdown', 'norg', 'asciidoc' },
     lsp = {
       -- Lsp client names to ignore
       blacklist_clients = {},
